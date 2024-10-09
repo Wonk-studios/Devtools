@@ -1,0 +1,15 @@
+
+setup: Changes the settings.
+    "devtool setup" Opens a setup tab in the IDE.
+    "devtool setup -headless" Runs setup in the terminal
+    "devtool setup <command> <option>" Changes a specific setup option in the terminal.
+    
+
+index: Indexes a set directory
+    "devtool index" Indexes the default directory in the settings.
+    "devtool index <path>" Indexes a custom path. Does not change the setting.
+
+make: Make tools.
+    "devt -m cd" Monuts the default directory in settings.
+    "devt make" Mounts the default directory set in settings and runs make.
+    NOTE: Devtool is shortened to devt, and in the mount command, make is shortened to -m make it easier for the user.
